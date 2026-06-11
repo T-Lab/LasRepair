@@ -1,11 +1,7 @@
 # LasRepair
 
 LasRepair is a research implementation for iterative repair of erroneous
-tabular data with a sequence-to-sequence model. The public repository is
-organized from the original `EMCL_v4.py` implementation. The training order,
-default hyperparameters, preprocessing logic, repair loop, random behavior,
-and evaluation calculations are retained.
-
+tabular data with a sequence-to-sequence model.
 ## Repository Structure
 
 ```text
@@ -121,20 +117,6 @@ PYTHONPATH=src python -m lasrepair.data.create_error_versions \
 `lasrepair.data.corruption.dataset_corrupter` is also retained as a Python
 utility. Its random behavior is unchanged and it does not set a seed.
 
-## Known Limitations
-
-- No datasets, model weights, checkpoints, logs, or generated results are
-  included.
-- Full training was not run during repository preparation because it requires
-  a large model, GPU resources, and dataset files.
-- The original `EMCL_v4` convergence calculation can produce an array where
-  scalar formatting/comparison is expected. It is preserved rather than
-  silently fixed.
-- The original `--use_weight` option uses `argparse` with `type=bool`, whose
-  command-line parsing may be surprising.
-- `--llm_name` is retained for compatibility but is not consumed by the
-  `EMCL_v4` repair implementation.
-- Optional LLM utilities require external credentials and network access.
 
 ## License
 
