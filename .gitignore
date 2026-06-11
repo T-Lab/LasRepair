@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Editors and notebooks
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
+
+# Local data and generated outputs
+datasets/*
+!datasets/README.md
+results/*
+!results/README.md
+logs/
+.cache/
+causal_matrices/
+
+# Models and checkpoints
+models/
+models_ckp/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Generated tabular and array artifacts outside documented placeholders
+*.npy
+*.npz
