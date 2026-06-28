@@ -1,0 +1,8 @@
+t1&t2&EQ(t1.name of the Walmart market is,t2.name of the Walmart market is)&IQ(t1.street_address of the Walmart market is,t2.street_address of the Walmart market is)
+t1&t2&EQ(t1.name of the Walmart market is,t2.name of the Walmart market is)&IQ(t1.city of the Walmart market is,t2.city of the Walmart market is)
+t1&t2&EQ(t1.name of the Walmart market is,t2.name of the Walmart market is)&IQ(t1.state of the Walmart market is,t2.state of the Walmart market is)
+t1&t2&EQ(t1.name of the Walmart market is,t2.name of the Walmart market is)&IQ(t1.country of the Walmart market is,t2.country of the Walmart market is)
+t1&t2&EQ(t1.street_address of the Walmart market is,t2.street_address of the Walmart market is)&IQ(t1.name of the Walmart market is,t2.name of the Walmart market is)
+t1&t2&EQ(t1.street_address of the Walmart market is,t2.street_address of the Walmart market is)&IQ(t1.city of the Walmart market is,t2.city of the Walmart market is)
+t1&t2&EQ(t1.street_address of the Walmart market is,t2.street_address of the Walmart market is)&IQ(t1.state of the Walmart market is,t2.state of the Walmart market is)
+t1&t2&EQ(t1.city of the Walmart market is,t2.city of the Walmart market is)&EQ(t1.state of the Walmart market is,t2.state of the Walmart market is)&IQ(t1.country of the Walmart market is,t2.country of the Walmart market is) 
