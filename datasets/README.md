@@ -1,7 +1,6 @@
 # Datasets
 
-No dataset files are included. The original project contained the following
-dataset directories:
+Dataset directories:
 
 - `beers`
 - `flight`
