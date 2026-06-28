@@ -1,0 +1,1 @@
+t1&t2&EQ(t1.Cont1,t2.Cont1)&EQ(t1.Cont2,t2.Cont2)&EQ(t1.Cont3,t2.Cont3)&EQ(t1.Cont4,t2.Cont4)&EQ(t1.Cont5,t2.Cont5)&EQ(t1.Cont6,t2.Cont6)&EQ(t1.Cont7,t2.Cont7)&EQ(t1.Cont8,t2.Cont8)&EQ(t1.Cont9,t2.Cont9)&IQ(t1.Cont10,t2.Cont10) 
